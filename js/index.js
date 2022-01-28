@@ -1,5 +1,5 @@
 const year = document.getElementById("year");
-let last_updated = document.getElementById("last_updated");
+let last_updated = document.getElementById("lastModified");
 
 year.textContent = new Date().getFullYear();
-// last_updated = new Date(document.lastModified);
+last_updated = new Date (document.lastModified);
