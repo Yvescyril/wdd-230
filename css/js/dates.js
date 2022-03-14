@@ -1,3 +1,7 @@
 //Test Change
-const options = {weekday:"numeric", month: "long", year:"numeric"};
-document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en us", Options);
+document.getElementById('currentDate').textContent = `${
+    weekday[d.getDay()]
+  }, ${d.getDate()} ${month[d.getMonth()]} ${d.getFullYear()}`;
+  
+  document.getElementById('lastmod').textContent = document.lastModified;
+  
