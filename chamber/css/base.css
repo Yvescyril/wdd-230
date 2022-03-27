@@ -2,7 +2,7 @@
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color: tomato;
+	background-color:blanchedalmond;
 }
 .navigation {
 	list-style: none;
@@ -25,9 +25,6 @@ nav {
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
-.navigation a.ham::before {
-	content: "🍔 ";
-}
 
 .navigation a:hover {
 	color: white;
@@ -41,9 +38,6 @@ nav {
 	display: block;
 }
 
-.responsive a.ham::before {
-	content: "❌ ";
-}
 
 /* Media Query for medium+ views */
 @media only screen and (min-width: 32.5em) {
