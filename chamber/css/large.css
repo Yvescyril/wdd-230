@@ -1,0 +1,23 @@
+
+header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    background-color: blanchedalmond;
+    
+  }
+  footer {
+    background-color: #abbbb6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 75px;
+  }
+  .contact{
+      text-align: center;
+  }
+  .info-footer{
+      text-align: center;
+  }
+  .social a{
+      padding: 1rem;
+  }  
+  
