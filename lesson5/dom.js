@@ -1,8 +1,8 @@
 const listsize = document.queryselector('#listsize');
-const buildBotton = document.queryselector("botton");
+const buildButton = document.queryselector("button");
 const userlist = document.querySelector('#userlist');
 
-buildBotton.AddEventListener('click', () => { 
+buildButton.AddEventListener('click', () => { 
     // get the userlist size
     let size = Number(listsize.value);
     // build Html
